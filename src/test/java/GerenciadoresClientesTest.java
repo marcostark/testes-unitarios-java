@@ -9,7 +9,9 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class GerenciadoresClientesTest {
 
     @Test
-    public void TestPesquisaCliente(){
+    public void testPesquisaCliente(){
+
+        /* Montagem do cenário de testes */
 
         Cliente c1 = new Cliente(1,
                 "Marcos",
@@ -29,8 +31,12 @@ public class GerenciadoresClientesTest {
 
         GerenciadoraClientes banco = new GerenciadoraClientes(clientes);
 
+
+        /* Execução */
         Cliente pesquisaCliente = banco.pesquisaCliente(1);
 
+
+        /* Verificações */
         assertThat(pesquisaCliente.getId(), is(1));
         assertThat(pesquisaCliente.getEmail(), is("marcos.souza@justa.com.vc"));
 

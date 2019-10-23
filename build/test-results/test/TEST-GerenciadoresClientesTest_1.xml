@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GerenciadoresClientesTest_1" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-23T00:21:33" hostname="jarvis" time="0.033">
-  <properties/>
-  <testcase name="TestRemoveCliente" classname="GerenciadoresClientesTest_1" time="0.033"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

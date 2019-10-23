@@ -21,6 +21,16 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
@@ -29,22 +39,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/GerenciadoresClientesTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/GerenciadoraContasTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/GerenciadoresClientesTest_1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+            <state relative-caret-position="176">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,13 +51,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/test/java/GerenciadoraContasTest_0.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -75,23 +70,34 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/GerenciadoresClientesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/GerenciadoresClientesTest_1.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/GerenciadoresClientesTest_0.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GerenciadoresClientesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GerenciadoraContas.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GerenciadoraContasTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GerenciadoraContasTest_0.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="16" />
-    <option name="y" value="15" />
-    <option name="width" value="1047" />
-    <option name="height" value="715" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="630" />
+    <option name="width" value="817" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -142,12 +148,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -165,13 +188,73 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.GerenciadoresClientesTest_1.TestRemoveCliente">
-    <configuration name="GerenciadoresClientesTest_1.TestPesquisaCliente" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.GerenciadoraContasTest_0.testTranfereValor">
+    <configuration name="GerenciadoraContasTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;GerenciadoresClientesTest_1.TestPesquisaCliente&quot;" />
+        <option name="scriptParameters" value="--tests &quot;GerenciadoraContasTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GerenciadoraContasTest_0.testTranfereValor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;GerenciadoraContasTest_0.testTranfereValor&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GerenciadoraContasTest.testTranfereValor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;GerenciadoraContasTest.testTranfereValor&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GerenciadoresClientesTest and 1 more" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;GerenciadoresClientesTest&quot; --tests &quot;GerenciadoresClientesTest_0&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -206,31 +289,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GerenciadoresClientesTest.TestPesquisaCliente" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;GerenciadoresClientesTest.TestPesquisaCliente&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GerenciadoraContasTest_0.testTranfereValor" />
+        <item itemvalue="Gradle.GerenciadoraContasTest.testTranfereValor" />
+        <item itemvalue="Gradle.GerenciadoraContasTest" />
+        <item itemvalue="Gradle.GerenciadoresClientesTest and 1 more" />
         <item itemvalue="Gradle.GerenciadoresClientesTest_1.TestRemoveCliente" />
-        <item itemvalue="Gradle.GerenciadoresClientesTest_1.TestPesquisaCliente" />
-        <item itemvalue="Gradle.GerenciadoresClientesTest.TestPesquisaCliente" />
       </list>
     </recent_temporary>
   </component>
@@ -244,23 +309,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571789289729</updated>
-      <workItem from="1571789292076" duration="1093000" />
+      <workItem from="1571789292076" duration="3731000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GerenciadoresClientesTest_TestPesquisaCliente - 2019.10.22 at 21h 14m 18s.xml">
-      <configuration name="GerenciadoresClientesTest.TestPesquisaCliente" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="GerenciadoresClientesTest_1_TestPesquisaCliente - 2019.10.22 at 21h 17m 42s.xml">
-      <configuration name="GerenciadoresClientesTest_1.TestPesquisaCliente" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="GerenciadoresClientesTest_1_TestRemoveCliente - 2019.10.22 at 21h 18m 56s.xml">
-      <configuration name="GerenciadoresClientesTest_1.TestRemoveCliente" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="GerenciadoresClientesTest_1_TestRemoveCliente - 2019.10.22 at 21h 19m 32s.xml">
-      <configuration name="GerenciadoresClientesTest_1.TestRemoveCliente" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="GerenciadoresClientesTest_1_TestRemoveCliente - 2019.10.22 at 21h 19m 33s.xml">
       <configuration name="GerenciadoresClientesTest_1.TestRemoveCliente" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -273,12 +326,30 @@
     <history-entry file="GerenciadoresClientesTest_1_TestRemoveCliente - 2019.10.22 at 21h 21m 34s.xml">
       <configuration name="GerenciadoresClientesTest_1.TestRemoveCliente" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="GerenciadoresClientesTest_and_1_more - 2019.10.22 at 21h 29m 17s.xml">
+      <configuration name="GerenciadoresClientesTest and 1 more" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="GerenciadoraContasTest_testTranfereValor - 2019.10.22 at 22h 01m 40s.xml">
+      <configuration name="GerenciadoraContasTest.testTranfereValor" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="GerenciadoraContasTest_testTranfereValor - 2019.10.22 at 22h 02m 04s.xml">
+      <configuration name="GerenciadoraContasTest.testTranfereValor" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="GerenciadoraContasTest_testTranfereValor - 2019.10.22 at 22h 02m 20s.xml">
+      <configuration name="GerenciadoraContasTest.testTranfereValor" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="GerenciadoraContasTest - 2019.10.22 at 22h 02m 57s.xml">
+      <configuration name="GerenciadoraContasTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="GerenciadoraContasTest_testTranfereValor - 2019.10.22 at 22h 06m 33s.xml">
+      <configuration name="GerenciadoraContasTest.testTranfereValor" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1093000" />
+    <option name="totallyTimeSpent" value="3731000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-2" width="1370" height="740" extended-state="6" />
+    <frame x="469" y="0" width="817" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -286,17 +357,17 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2907855" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21919584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.24227643" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.64715445" />
+      <window_info anchor="bottom" id="Terminal" weight="0.25842696" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.3403909" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36097562" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42607313" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -325,16 +396,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Cliente.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GerenciadoresClientesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GerenciadoraClientes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -342,23 +403,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GerenciadoresClientesTest_1.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GerenciadoresClientesTest_0.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+        <state relative-caret-position="60">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/test/java/GerenciadoraContas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GerenciadoresClientesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GerenciadoraContasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GerenciadoraContasTest_0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
         </state>
       </provider>
     </entry>

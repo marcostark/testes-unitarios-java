@@ -8,10 +8,10 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertNull;
 
-public class GerenciadoresClientesTest_1 {
+public class GerenciadoresClientesTest_0 {
 
     @Test
-    public void TestPesquisaCliente() {
+    public void testPesquisaCliente() {
 
         Cliente c1 = new Cliente(1,
                 "Marcos",
@@ -38,7 +38,7 @@ public class GerenciadoresClientesTest_1 {
     }
 
     @Test
-    public void TestRemoveCliente(){
+    public void testRemoveCliente(){
 
         Cliente c3 = new Cliente(1,
                 "Marcos",

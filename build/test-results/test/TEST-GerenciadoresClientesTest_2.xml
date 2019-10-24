@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GerenciadoresClientesTest_2" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-10-24T00:20:34" hostname="jarvis" time="0.141">
+  <properties/>
+  <testcase name="testPesquisaCliente" classname="GerenciadoresClientesTest_2" time="0.133"/>
+  <testcase name="testRemoveCliente" classname="GerenciadoresClientesTest_2" time="0.005"/>
+  <system-out><![CDATA[Before
+Teste
+Limpa
+Before
+Remove
+Limpa
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

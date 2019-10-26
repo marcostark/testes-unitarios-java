@@ -7,7 +7,7 @@ import java.util.List;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.junit.Assert.assertNull;
+import static org.junit.Assert.*;
 
 public class GerenciadoresClientesTest_3 {
 
@@ -43,8 +43,6 @@ public class GerenciadoresClientesTest_3 {
         clientes.add(c2);
 
         banco = new GerenciadoraClientes(clientes);
-
-        System.out.println("Before");
     }
 
     @After
@@ -52,7 +50,6 @@ public class GerenciadoresClientesTest_3 {
         banco.limpa();
         System.out.println("Limpa");
     }
-
 
     @Test
     public void testPesquisaCliente(){
@@ -63,9 +60,6 @@ public class GerenciadoresClientesTest_3 {
         /* Verificações */
         assertThat(cliente.getId(), is(idCliente));
         assertThat(cliente.getEmail(), is("marcos.souza@justa.com.vc"));
-
-        System.out.println("Teste");
-
     }
 
     @Test
@@ -76,7 +70,6 @@ public class GerenciadoresClientesTest_3 {
 
         /* Verificações */
         assertNull(cliente);
-
     }
 
     @Test
@@ -100,6 +93,73 @@ public class GerenciadoresClientesTest_3 {
 
         /* Verificações */
         assertThat(isRemoveCliente, is(false));
+    }
 
+    /**
+     * Metodos de teste para valores limites*/
+    @Test
+    public void testValidaIdadeCliente() throws IdadeNaoPermitidaException{
+
+        /* Execução */
+        Cliente cliente = new Cliente(1, "Marcos", 20,"marcos@gmail.com",1,true);
+
+        boolean idadeValida = banco.validaIdade(cliente.getIdade());
+
+        /* Verificações */
+        assertTrue(idadeValida);
+    }
+
+    @Test
+    public void testValidaIdadeClienteMinima() throws IdadeNaoPermitidaException{
+
+        /* Execução */
+        Cliente cliente = new Cliente(1, "Marcos", 18,"marcos@gmail.com",1,true);
+
+        boolean idadeValida = banco.validaIdade(cliente.getIdade());
+
+        /* Verificações */
+        assertTrue(idadeValida);
+    }
+
+    @Test
+    public void testValidaIdadeClienteMaxima() throws IdadeNaoPermitidaException{
+
+        /* Execução */
+        Cliente cliente = new Cliente(1, "Marcos", 65,"marcos@gmail.com",1,true);
+
+        boolean idadeValida = banco.validaIdade(cliente.getIdade());
+
+        /* Verificações */
+        assertTrue(idadeValida);
+    }
+
+    @Test
+    public void testValidaIdadeClienteAbaixoDaMaxima() throws IdadeNaoPermitidaException{
+
+        /* Execução */
+        Cliente cliente = new Cliente(1, "Marcos", 17,"marcos@gmail.com",1,true);
+
+        try{
+            banco.validaIdade(cliente.getIdade());
+            fail(); //Para o teste passar, não pode cair nessa linha
+        } catch (Exception e){
+            // Verificando se a mensagem da excecao está correta
+            assertThat(e.getMessage(), is(IdadeNaoPermitidaException.MSG_IDADE_INVALIDA));
+        }
+    }
+
+    @Test
+    public void testValidaIdadeClienteAcimaDaMaxima() throws IdadeNaoPermitidaException{
+
+        /* Execução */
+        Cliente cliente = new Cliente(1, "Marcos", 66,"marcos@gmail.com",1,true);
+
+        try{
+            banco.validaIdade(cliente.getIdade());
+            fail();//Para o teste passar, não pode cair nessa linha
+        } catch (Exception e){
+            // Verificando se a mensagem da excecao está correta
+            assertThat(e.getMessage(), is(IdadeNaoPermitidaException.MSG_IDADE_INVALIDA));
+        }
     }
 }

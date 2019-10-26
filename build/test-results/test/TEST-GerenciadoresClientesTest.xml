@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GerenciadoresClientesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-26T16:18:13" hostname="LAPTOP-TQPV4KOE" time="0.004">
+  <properties/>
+  <testcase name="testPesquisaCliente" classname="GerenciadoresClientesTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

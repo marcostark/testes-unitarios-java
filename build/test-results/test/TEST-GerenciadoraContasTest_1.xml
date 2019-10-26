@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GerenciadoraContasTest_1" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-26T16:13:10" hostname="LAPTOP-TQPV4KOE" time="0.007">
+<testsuite name="GerenciadoraContasTest_1" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-10-26T16:18:13" hostname="LAPTOP-TQPV4KOE" time="0.006">
   <properties/>
-  <testcase name="testTranfereValorSaldoNegaticoParaSaldoNegativo" classname="GerenciadoraContasTest_1" time="0.007"/>
+  <testcase name="testTranfereValorSaldoNegaticoParaSaldoNegativo" classname="GerenciadoraContasTest_1" time="0.001"/>
+  <testcase name="testTranfereValor" classname="GerenciadoraContasTest_1" time="0.001"/>
+  <testcase name="testTranfereValorSaldoNegativo" classname="GerenciadoraContasTest_1" time="0.001"/>
+  <testcase name="testTranfereValorSaldoNegatico_1" classname="GerenciadoraContasTest_1" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
